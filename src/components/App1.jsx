@@ -1,4 +1,4 @@
-import Product from "./Product";
+import Product from "./Project";
 import Variant from "./Variant";
 import Calc from "./Calc";
 export default function App1() {
