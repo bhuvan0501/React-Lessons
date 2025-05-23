@@ -1,4 +1,4 @@
-import Product from "./Product";
+import Product from "./Project";
 export default function App1() {
   return (
     <>
