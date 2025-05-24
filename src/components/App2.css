@@ -1,6 +1,7 @@
 .App-Product-Container {
     display: flex;
     justify-content: center;
+    background-color: rebeccapurple;
 }
 
 .App-Product-Box {
