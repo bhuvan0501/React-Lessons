@@ -4,6 +4,10 @@ import App2 from "./components/App2";
 import App3 from "./components/App3";
 import App4 from "./components/App4";
 import App5 from "./components/App5";
+import App6 from "./components/App6";
+import App7 from "./components/App7";
+import App8 from "./components/App8";
+import App9 from "./components/App9";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -18,6 +22,10 @@ function App() {
         <Route path="/app3" element={<App3 />} />
         <Route path="/app4" element={<App4 />} />
         <Route path="/app5" element={<App5 />} />
+        <Route path="/app6" element={<App6 />} /> 
+        <Route path="/app7" element={<App7 />} />
+        <Route path="/app8" element={<App8 />} />
+        <Route path="/app9" element={<App9 />} />
       </Routes>
       <Footer />
     </Router>
