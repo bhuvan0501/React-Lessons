@@ -8,6 +8,15 @@ import App6 from "./components/App6";
 import App7 from "./components/App7";
 import App8 from "./components/App8";
 import App9 from "./components/App9";
+import App10 from "./components/App10";
+import App11 from "./components/App11";
+import App12 from "./components/App12";
+import App13 from "./components/App13";
+import App14 from "./components/App14";
+import App15 from "./components/App15";
+import App16 from "./components/App16";
+import App17 from "./components/App17";
+import App18 from "./components/App18";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -26,6 +35,15 @@ function App() {
         <Route path="/app7" element={<App7 />} />
         <Route path="/app8" element={<App8 />} />
         <Route path="/app9" element={<App9 />} />
+        <Route path="/app10" element={<App10 />} />
+        <Route path="/app11" element={<App11 />} /> 
+        <Route path="/app12" element={<App12 />} /> 
+        <Route path="/app13" element={<App13 />} /> 
+        <Route path="/app14" element={<App14 />} /> 
+        <Route path="/app15" element={<App15 />} /> 
+        <Route path="/app16" element={<App16 />} /> 
+        <Route path="/app17" element={<App17 />} /> 
+        <Route path="/app18" element={<App18 />} /> 
       </Routes>
       <Footer />
     </Router>
